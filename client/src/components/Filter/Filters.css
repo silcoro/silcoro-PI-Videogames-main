@@ -1,0 +1,38 @@
+.barra-principal-filter-order{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: rgb(165, 158, 156); */
+    width: 300px;
+    height: 70px;
+}
+
+.select-home-actividad{
+    color: white;
+    background-color: rgba(48, 48, 48, 0.946);
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.select-home-APi-BD{
+    color: white;
+    background-color: rgba(48, 48, 48, 0.946);
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.titulo-caja{
+    color: rgb(255, 153, 0);
+    -webkit-text-stroke: 1px rgba(225, 220, 208, 0.74);
+    font-family: monospace;
+    font-size: 13px;
+}
+
+.border-caja{
+    border: 1px solid rgba(107, 107, 107, 0.412);
+    border-radius: 5px;
+    padding: 0px 4px 0px 4px;
+}

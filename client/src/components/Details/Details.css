@@ -1,0 +1,117 @@
+.principal-details{
+    background-image: url('../../imagenes/detalles.jpg');
+    background-size: cover;
+    margin: 1px 0px 0px 0px;
+    padding: 0px 0px 29px 0px;
+}
+
+
+.caja_principal{
+    /* background-color: rgb(223, 233, 253); */
+    /* background-image: url('../../imagenes/detalles.png');
+    background-size: cover; */
+
+    width: auto;
+    height: 697px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    margin: 5px 0px 0px 0px;
+    /* border-radius: 5px; */
+    /* border-right: 1px solid rgb(173, 133, 0); */
+}
+
+.imagen{
+    width: 450px;
+    height: 250px;
+    margin: 10px 0px 0px 0px;
+    border-radius: 15px;
+    border: 4px solid rgba(80, 42, 42, 0.556);
+}
+
+.nombre{
+    color: rgba(255, 238, 0, 0.905);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px 8px 0px 8px;
+    margin: 0px 1px 0px 9px;
+    -webkit-text-stroke: 0.01em rgb(0, 88, 119);
+    width: 500px;
+}
+.fecha-details{
+    color: yellow;
+    font-size: 18px;
+}
+.titulo-details-1{
+    color: springgreen;
+    font-size: 20px;
+}
+.caja-details-1{
+    background-color: rgba(21, 39, 18, 0.789);
+    display: block;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 395px;
+    border-radius: 5px;
+    padding: 2px 0px 5px 0px;
+    margin: 2px 8px 0px 8px;
+    
+}
+
+.caja-details-1:hover{
+    background-color:rgba(0, 29, 58, 0.871);
+    border-radius: 10px;
+}
+
+
+.parrafo-details > p{
+    color: white;
+    /* display: flex;
+    flex-direction: row; */
+    text-align: start;
+    padding: 22px 14px 0px 0px;
+    margin: 22px 1px 0px 0px;
+    width: 600px;
+}
+
+.genders-details{
+    color: antiquewhite;
+}
+
+.rating{
+    color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid yellowgreen;
+    border-radius: 8px;
+    height: 28px;
+    width: 55px;
+}
+.nombre-rating{
+    display: block;
+    padding: 1px 0px 0px 0px;
+    margin: 1px;
+    color: chartreuse;
+    font-size: 22px;
+}
+
+@media (max-width: 500px){
+
+    .caja_principal{
+    
+    flex-direction: column;
+    border-radius: 1px solid rgb(150, 253, 5);
+    padding: 0px;
+    width: 400px;
+
+}
+
+
+
+
+
+}
